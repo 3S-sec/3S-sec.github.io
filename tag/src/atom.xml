@@ -8,7 +8,7 @@
     <category term="src" />
     <entry>
         <id>https://3s-sec.github.io/2023/03/24/appid%E4%B8%8Esecert%E6%B3%84%E9%9C%B2%E6%B7%B1%E5%BA%A6%E5%88%A9%E7%94%A8%E6%96%B9%E6%B3%95/</id>
-        <title>appid与secert泄露深度利用方法</title>
+        <title>appid与secert泄露利用方法</title>
         <link rel="alternate" href="https://3s-sec.github.io/2023/03/24/appid%E4%B8%8Esecert%E6%B3%84%E9%9C%B2%E6%B7%B1%E5%BA%A6%E5%88%A9%E7%94%A8%E6%96%B9%E6%B3%95/"/>
         <content type="html">&lt;h2 id=&#34;漏洞介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#漏洞介绍&#34;&gt;#&lt;/a&gt; 漏洞介绍&lt;/h2&gt;
 &lt;p&gt;今天分享一下 appid 与 secert 泄露得利用方法，也不能算是漏洞吧，其实就是只要我们拿到这个对应的 appid 与 secert 就可以完成一些对小程序的接管，本质在于我们是否可以获取到这个信息。&lt;/p&gt;
