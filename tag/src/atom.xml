@@ -13,7 +13,7 @@
         <content type="html">&lt;h2 id=&#34;漏洞介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#漏洞介绍&#34;&gt;#&lt;/a&gt; 漏洞介绍&lt;/h2&gt;
 &lt;p&gt;今天分享一下 appid 与 secert 泄露得利用方法，也不能算是漏洞吧，其实就是只要我们拿到这个对应的 appid 与 secert 就可以完成一些对小程序的接管，本质在于我们是否可以获取到这个信息。&lt;/p&gt;
 &lt;p&gt;首先介绍一下 appid 和 secert 得作用，这里可以查看一下官方文档&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;.%5Cappid%E4%B8%8Esecert%E6%B3%84%E9%9C%B2%E6%B7%B1%E5%BA%A6%E5%88%A9%E7%94%A8%E6%96%B9%E6%B3%95%5Cimage-20230324124234955.png&#34; alt=&#34;image-20230324124234955&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;.%5Cimage-20230324124234955.png&#34; alt=&#34;image-20230324124234955&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;appid：小程序标识&lt;/li&gt;
 &lt;li&gt;secret：密钥&lt;/li&gt;
@@ -22,7 +22,7 @@
 &lt;p&gt;这里我们了解了 appid、secret 以后可以具体看一下，这两个东西我们从哪来获取。&lt;/p&gt;
 &lt;h3 id=&#34;页面报错&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#页面报错&#34;&gt;#&lt;/a&gt; 页面报错&lt;/h3&gt;
 &lt;p&gt;首先可以通过页面报错得方式，比如我们胡乱的构造一些参数，路径加一些斜杠、特殊字符等能使页面报错得方法，有可能就会泄露 secret。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;.%5Cappid%E4%B8%8Esecert%E6%B3%84%E9%9C%B2%E6%B7%B1%E5%BA%A6%E5%88%A9%E7%94%A8%E6%96%B9%E6%B3%95%5Cimage-20230324124919103.png&#34; alt=&#34;image-20230324124919103&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;.%5Cimage-20230324124919103.png&#34; alt=&#34;image-20230324124919103&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;反编译&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#反编译&#34;&gt;#&lt;/a&gt; 反编译&lt;/h3&gt;
 &lt;p&gt;反编译需要使用模拟器提取 wxapkg 文件进行反编译，这里不过多阐述，网上找一些工具反编译之后全局搜索就可以了。&lt;/p&gt;
 &lt;h3 id=&#34;github&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#github&#34;&gt;#&lt;/a&gt; github&lt;/h3&gt;
